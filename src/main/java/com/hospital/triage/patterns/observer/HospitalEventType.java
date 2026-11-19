@@ -1,0 +1,10 @@
+package com.hospital.triage.patterns.observer;
+
+public enum HospitalEventType {
+    CRITICAL_PATIENT_ARRIVED,
+    WAITING_PATIENT_DETERIORATED,
+    HOSPITAL_MODE_CHANGED,
+    BED_CAPACITY_LOW,
+    NEW_PATIENT_REGISTERED,
+    DOCTOR_OVERRIDE_PERFORMED
+}
